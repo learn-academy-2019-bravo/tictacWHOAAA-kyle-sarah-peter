@@ -1,6 +1,6 @@
 # React Tic Tac Toe
 
-## Rules of React
+## React Best Practices
 
 Here are some rules to keep handy as you build Tic Tac Toe - following them will help you avoid lots of problems.
 
@@ -9,29 +9,9 @@ Here are some rules to keep handy as you build Tic Tac Toe - following them will
 - Only call setState once per method or render cycle
 - State is for values that change, Props is for values to pass to a child component, constants should be set outside the component
 
-## For cleaner React
-
-Some guidelines for better looking React code:
-
-- Instead of using this.state multiple times, destructure the state object to save values
-- "export default" can be written when you create the component class, or at the end of the file. Whichever you choose, stay consistent!
-
-This challenge is intended to let you practice maintaining state in a React application and
-become more familiar with passing props and dealing with user interactions. This game will be for two
-users, playing on one device, taking turns. You will have to use component state to keep track of
-whose turn it is and which squares have been marked by each player. One hint is that you should not
-directly manipulate the DOM to keep track of changes (in other words, no direct DOM manipulation like
-getElementById("square").style = ...). React state and props should do all the heavy lifting.
-
-On another note - this project will challenge your knowledge of React but should also be an exercise
-in creating good user experiences. Your view should be styled to look good as well as function
-flawlessly.
-
-Here are the user stories to guide your progress:
+## Tic Tac Toe Stories
 
 - As a user, I should start off seeing a 3x3 grid on the main page
-
-![tic-tac-toe board](https://s3.amazonaws.com/learn-site/curriculum/tic-tac-toe-board.png)
 
 - As a user, I should be able to click on a square to mark it. My partner should be able to
 click on a square after me and see their mark.
@@ -40,14 +20,28 @@ click on a square after me and see their mark.
 or there are no more squares, an alert will tell me who has won or that there are no more squares
 and the game has ended.
 
-![winner](https://s3.amazonaws.com/learn-site/curriculum/tic-tac-toe-winner.png)
-
 
 ## Extra Challenges
 - Use flexbox to set up your grid
 - Allow users to choose their mark (X, O, a color, an emoji, etc...)
 - Create a component for alerts and push the win/lose messages there instead of using an alert
 
-# How to Use this Repo
+## Review
 
-When your team is ready to begin coding, open this project in Atom and edit it directly. Remember to add and commit regularly and, at the end of the project day, be sure to push your changes to Github.
+In this review I'll be summarizing:
+
+-The team I was on that accomplished this project
+-Where I completed the project
+-The use of state and props to make this a successful project
+
+My team was composed of Sarah, Peter and myself (Sarah and Peter are my classmates at Learn Academy).  This is the first time we've worked 
+together and we made an awesome team!
+
+Learn Academy full-stack developer bootcamp (May 7th)
+
+In order to make this application in React successful, our group had to utilize state and props. (explain mastery of state and props)
+
+Wrap-up:
+-This was my team
+-Worked on at bootcamp
+-Used experience with state and props
